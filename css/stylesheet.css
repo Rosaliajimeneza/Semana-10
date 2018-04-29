@@ -1,0 +1,318 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Body general*/
+body {
+	font-size: 1em;
+	font-family: 'Roboto Mono', monospace;
+	color: #e8e5e0;
+	background-color: #031424;
+	text-align: justify;
+	line-height: 1.6;
+	font-weight: 400;
+	max-width: 100%;
+	margin: 0 60px;
+	padding: 60px 0;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+} 
+ 
+ /*Este es el body de la página principal*/
+#body1 {
+	margin: 0 60px;
+	padding: 60px 0;
+	font-size: 1em;
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+	background-color: black;
+	text-align: justify;
+	line-height: 1.6;
+	font-weight: 400;
+	max-width: 100%;
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+
+/*Título pag principal*/
+.principal {
+	letter-spacing: 0.1em;
+	color: white;
+	display: flex;
+	font-size: 5em;
+	justify-content: center;
+	padding: 0.2em;
+	font-weight: 700;
+	letter-spacing: 0.5em;
+	align-items: center;
+
+}
+
+/*Título pag aboutus*/
+#title {
+	letter-spacing: 0.1em;
+	color: #e8e5e0;
+	display: flex;
+	font-size: 5em;
+	justify-content: center;
+	padding: 0.5em;
+	font-weight: 700;
+	letter-spacing: 0.5em;
+	align-items: center;
+}
+
+#title:hover {
+	color: #e95669;
+	transition: .5s; 
+}
+/*Intento de hover título pag principal*/
+.principal:hover {
+	background-color: none;
+	color: #031424;
+	border-radius: 5px;
+	transition: .5s; 
+}
+
+.descriptionhome {
+	display: flex;
+	justify-content: center;
+	padding: 1.5em;
+}
+
+.aboutt {
+	color: #fd8c3e;
+}
+h1 {
+  font-size: 2.7em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+}
+
+.link1 {
+	font-size: 1em;
+	font-weight: 700;
+}
+
+.link1:hover {
+	color: #e95669;
+	transition: .5s;  
+}
+
+li {
+	padding: 5px;
+	display: inline-flex;
+    max-width: 450px;
+    margin: 0;
+    padding: 0.3em;
+    justify-content: center;
+    font-weight: 400;
+ }
+
+a {
+   text-decoration: none;
+   color: white;
+}
+	
+
+ li a {
+ 	display: flex;
+	font-weight: 400;
+	position: relative;
+	justify-content: center;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 0.7em;
+	transition: .5s; 
+
+
+}
+
+ nav ul {
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	font-size: 1.25em;
+	letter-spacing: 1px;
+	text-align: center;
+	background-color: none;
+	display: block;
+
+
+}
+
+nav a:active {
+	background-color: #4CAF50;
+	color: white;
+	cursor: default;
+}
+
+/*Hover pag principal navbar*/
+.home a:hover {
+	background-color: #031424;
+	color:  #e8e5e0;
+	border-radius: 5px;
+}
+
+/*Hover pag aboutus*/
+.aboutus a:hover {
+	background-color:  #e95669;
+	color:  white;
+	border-radius: 5px;
+}
+
+/*Esto pertenece a la página ABOUT*/
+.todo {
+  margin: 0 60px;
+  padding: 35px 0;
+}
+
+.primero {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+.about {
+  background: black;
+}
+
+.primerotexto {
+  margin: 30px;
+  width: 70%;
+}
+
+.imagen1 {
+  width: 20%;
+
+}
+
+.imagen1 img {
+  width: 100%;
+  border-radius: 7px;
+
+}
+
+/*Esto pertenece a la página CONTACT*/
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30%;
+  margin: none;
+  
+}
+
+.fa:hover {
+    background-color: #031424;
+	color:  #e8e5e0;
+    transition: .5s; 
+}
+
+.fa-facebook {
+  background: none;
+  color: #031424;
+}
+
+.fa-twitter {
+  background: none;
+  color: #031424;
+}
+
+.infocontact {
+	display: flex;
+	justify-content: center;
+	padding: 2em;
+
+}
+
+.popular {
+	color: #fd8c3e;
+	display: flex;
+	justify-content: center;
+
+}
+
+.columnas {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+    flex-flow: row wrap;
+}
+
+.caja {
+  width: 20px;
+  margin: 10px;
+  text-align: center;
+  font-size: 1em;
+  align-items: center;
+  width: 40%;
+  border-radius: 5%;
+   padding: 2em;
+
+}
+
+.img-circle {
+    width: 60%;
+    border-radius: 20%;
+}
+
+.img-circle:hover {
+    opacity: 0.5;
+    transition: .5s; 
+}
+
+.mainten {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+}
+
+.populardiv {
+	display: flex;
+  justify-content: center;
+}
+/*Footer de la página principal*/
+.firstfoot {
+	color: #fff9fc;
+	font-size: 1em;
+	padding: 1em 1em;
+	background-color: transparent;
+	width: 100%;
+	max-width: 100%;
+}
+
+/*Footer regular*/
+footer {
+	color: #e8e5e0;
+	font-size: 1em;
+	padding: 1em 1em;
+	background-color: none;
+	width: 100%;
+	max-width: 100%;
+}
+
+
